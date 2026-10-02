@@ -1,0 +1,37 @@
+body {
+    /* Path relative to style/styles.css file */
+    background-image: url("../images/ibm.jpg"); 
+    
+    /* Cover the full screen area */
+    background-size: cover; 
+    
+    /* Prevent the background from tiling/repeating */
+    background-repeat: no-repeat; 
+    
+    /* Center the image */
+    background-position: center center; 
+    
+    /* Keep image fixed in place while scrolling (optional) */
+    background-attachment: fixed; 
+}
+
+.heading1 {
+   color:red;
+   font-family:cursive;
+   font-size-adjust: 50px;
+}
+p{
+    color:yellowgreen;
+    background-color:teal;
+    font-family:Helvetica;
+    border-radius:50px;
+    margin:30px;
+    padding:40px;
+     border: 2000px;
+}
+#new{
+    color:purple
+    background-color: black;
+    text-align: center; 
+    text-decoration:underline;
+}
